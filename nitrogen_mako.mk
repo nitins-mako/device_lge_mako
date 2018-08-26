@@ -10,6 +10,7 @@ $(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
+$(call inherit-product, device/lge/mako/board/ui.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mako
