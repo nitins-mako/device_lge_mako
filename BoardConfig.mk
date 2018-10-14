@@ -43,6 +43,9 @@ TARGET_BOARD_INFO_FILE := device/lge/mako/board-info.txt
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/mako/bluetooth
 
+# UI
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02002000U 
+
 # FIXME: HOSTAPD-derived wifi driver
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
